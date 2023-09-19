@@ -1,7 +1,4 @@
 @media only screen and (max-width: 900px) {
-  *{
-    border: 1px solid red;
-  }
     .h1 {
         color: var(--Text_White, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
@@ -25,9 +22,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 125%; /* 50px */
-    }
-    .btn{
-        padding: 0 !important;
     }
     .h3{
         color: var(--color-white-75, rgba(255, 255, 255, 0.75));
