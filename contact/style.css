@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 900px) {
+
+.h1{
+    color: var(--Text_Black, #000);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography / Heading / Bold 4 */
+font-family: Crimson Text;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 30px */
+}
+.h2{
+    color: var(--Text_Black, #000);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Sub-Heading/Regular */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+}
+.input2{
+    display: flex;
+    align-items: start;
+    padding: 0 10px;
+    border-radius: 5px;
+border: 1px solid #000;
+background: #EEE;
+width: 100%;
+height: 141px;
+vertical-align: top;
+}
+
+
+
+
+
+}
+@media only screen and (min-width: 900px) {
+
+.h1{
+    color: var(--Text_Black, #000);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Heading/Bold 1 */
+font-family: Crimson Text;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 50px */
+}
+.h2{
+    color: var(--Text_Black, #000);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Sub-Heading/Regular */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+}
+.input2{
+    padding: 0 10px;
+    border-radius: 5px;
+border: 1px solid #000;
+background: #EEE;
+width: 100%;
+height: 75px;
+}
+
+
+
+}
+
+.h3{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Sub-Heading/Regular */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+}
+.input1{
+    padding: 0 10px;
+    border-radius: 5px;
+border: 1px solid #000;
+background: #EEE;
+width: 100%;
+height: 38px;
+}
+.btn1{
+    border-radius: 5px;
+background: var(--color-dark, #212529);
+border: none;
+height: 48px;
+color: #FFF;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+transition: 0.3s ease;
+/* Typography/Sub-Heading/Regular */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+}
+.btn1:hover{
+    background: var(--color-dark, #363839);
+}
