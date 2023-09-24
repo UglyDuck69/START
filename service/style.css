@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .h2{
+        color: var(--color-green-100, #74C69D);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        margin-top: 21px;
+        /* Typography / Label / Bold */
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125%; /* 20px */
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+    .h3{
+        color: var(--Text_Black, #000);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Typography / Heading / Bold 4 */
+        font-family: Crimson Text;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 125%; /* 30px */
+    }
+    .h4{
+        color: var(--Text_Black, #000);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Typography/Sub-Heading/Regular */
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%; /* 25px */
+}
+
+
+
+.cardi{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+padding: 46px 30px;
+gap: 10px;
+margin-top: 50px;
+display: flex;
+align-items: flex-start;
+}
+.h5{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Typography/Body/Regular */
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 18.75px */
+}
+.h6{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 50px */
+}
+.span1{
+    color: var(--color-dark-50, rgba(33, 37, 41, 0.50));
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Body/Regular */
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 18.75px */
+}
+.h7{
+    color: var(--color-dark-50, rgba(33, 37, 41, 0.50));
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Body/Regular */
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 18.75px */
+}
+.h8{
+    color: var(--color-dark-100, #212529);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Body/Regular */
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 18.75px */
+}
+.btn1{
+    border-radius: 5px;
+background: var(--color-dark, #212529);
+width: 170px;
+height: 48px;
+color: #FFF;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+margin-top: 45px;
+/* Typography/Sub-Heading/Regular */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+}
+
+
+
+
+}
+@media only screen and (min-width: 600px) {
+
+.h2{
+    color: var(--color-green-100, #74C69D);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin-top: 35px;
+    /* Typography / Label / Bold */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 20px */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.h3{
+    color: var(--Text_Black, #000);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Heading/Bold 1 */
+font-family: Crimson Text;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 50px */
+}
+.h4{
+    color: var(--Text_Black, #000);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Sub-Heading/Regular */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+}
+.cardi{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+padding: 46px 30px;
+gap: 10px;
+width: 279px;
+display: flex;
+align-items: flex-start;
+}
+.h5{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Typography/Body/Regular */
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 18.75px */
+}
+.h6{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /* 50px */
+}
+.span1{
+    color: var(--color-dark-50, rgba(33, 37, 41, 0.50));
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Body/Regular */
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 18.75px */
+}
+.h7{
+    color: var(--color-dark-50, rgba(33, 37, 41, 0.50));
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Body/Regular */
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 18.75px */
+}
+.h8{
+    color: var(--color-dark-100, #212529);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Typography/Body/Regular */
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 18.75px */
+}
+.btn1{
+    border-radius: 5px;
+background: var(--color-dark, #212529);
+width: 170px;
+height: 48px;
+color: #FFF;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+margin-top: 45px;
+/* Typography/Sub-Heading/Regular */
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 25px */
+}
+
+
+
+
+
+
+
+
+
+
+}
